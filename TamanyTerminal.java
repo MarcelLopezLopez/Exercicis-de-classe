@@ -6,7 +6,7 @@ public class TamanyTerminal {
     public static void main(String[] args) {
         try {
             // Ejecutar el comando "tput cols" para obtener el número de columnas del terminal
-            Process process = Runtime.getRuntime().exec(new String[] { "bash", "-c", "tput cols" });
+            Process process = Runtime.getRuntime().exec(new String[] { "bash", "-c", "tput cols 2>/dev/tty" });
 
             // Leer la salida del comando
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
