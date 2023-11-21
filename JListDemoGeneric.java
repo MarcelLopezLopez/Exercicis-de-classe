@@ -46,9 +46,9 @@ public class JListDemoGeneric extends JPanel {
 
         // create initial listModel
         listModel = new DefaultListModel<>();
-        listModel.addElement("Item 1");
-        listModel.addElement("Item 2");
-        listModel.addElement("Item 3");
+        listModel.addElement("Sergi Ferret");
+        listModel.addElement("Jorge Ortega");
+        listModel.addElement("Marcel Lopez");
 
 
         //Create the list and put it in a scroll pane.
