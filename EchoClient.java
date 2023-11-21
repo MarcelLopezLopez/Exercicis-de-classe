@@ -42,6 +42,6 @@ public class EchoClient {
             while ((line = sc.readLine()) != null) {    
                 System.out.println(line);
                 }
-        }).start;
+        }).start();
     }
 }
